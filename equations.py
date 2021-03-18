@@ -1,4 +1,6 @@
 def exponent(x:float):
+    if(x==0):
+        return 0.0
     k=1.0
     j=x
     counter=1
